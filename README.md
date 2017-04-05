@@ -1,5 +1,3 @@
 ## A program that tidies up files that are mangled by the Note application on Macs.
 
-Example of the horror:
-
-> "<html<head></head><body>SCOPE<div><br></div><div>Methods create a new 'scope gate'&nbsp;</div><div><br></div><div>Blocks do not create a new scope gate. Blocks such as simple iterators, do-end etc don’t create new scope.</div></body>html>"
+When importing backed up notes it exported them in html format. Great for browsers, not so great for humans. This program removes the html formatting so that they can be read easily again in the Note app.
