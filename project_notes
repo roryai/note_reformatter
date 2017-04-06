@@ -1,0 +1,20 @@
+git init
+create repo on github
+add remotes
+create gemfile
+  source 'https://rubygems.org'
+  gem 'rspec'
+rspec --init
+
+describe Class do
+  subject(:class_instance) {described_class.new}
+
+  it 'can do something' do
+    expect(class_instance.method).to eq "something"
+  end
+end
+
+
+
+http://blog.teamtreehouse.com/an-introduction-to-rspec
+https://www.tutorialspoint.com/rspec/rspec_basic_syntax.htm
